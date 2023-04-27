@@ -11,7 +11,7 @@ const Hero = () => {
       className=" bg-no-repeat  bg-cover bg-center bg-blend-multiply pt-6 pb-20"
       style={{
         backgroundImage: `url(${bg_img})`,
-        backgroundColor: " rgba(0, 0, 0, .1)",
+        backgroundColor: " rgba(0, 0, 255,0.2)",
       }}
     >
       <Navbar />

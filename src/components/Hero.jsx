@@ -7,19 +7,21 @@ import bg_img from "../assets/bg-img.jpg";
 const Hero = () => {
   return (
     <div
-      className="bg-no-repeat bg-cover bg-center bg-blend-multiply py-6 pb-20"
+      id="home"
+      className=" bg-no-repeat  bg-cover bg-center bg-blend-multiply pt-6 pb-20"
       style={{
         backgroundImage: `url(${bg_img})`,
-        backgroundColor: " rgba(0, 0, 0, 0.2)",
+        backgroundColor: " rgba(0, 0, 0, .1)",
       }}
     >
       <Navbar />
-      <div className="w-mobile md:w-container mx-auto grid grid-cols-2 items-center gap-3">
+      <div className="w-mobile md:w-container mx-auto grid md:grid-cols-2 items-center gap-3">
         <div className="space-y-12">
           <div>
-            <h2 className="text-mainBlue text-4xl font-bold">
-              Calm | <span className="text-darkBlue font-bold">Innovative</span>{" "}
-              | <span className="text-red-500 font-bold">Bold</span>
+            <h2 className=" text-4xl font-bold">
+              <span className="text-mainBlue">Calm</span> |{" "}
+              <span className="text-red-500 font-bold">Innovative</span> |{" "}
+              <span className=" font-bold text-darkBlue">Bold</span>
             </h2>
             <p className="text-xl py-2">
               Building the future of ict through innovative software

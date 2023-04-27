@@ -3,3 +3,16 @@
   margin: 0;
   font-family: sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.active {
+  /* background-color: red; */
+  border-bottom: 2px solid #3a3a62;
+  color: #3a3a62;
+  padding: 10px 0px;
+  transition: ease-in-out;
+  transition-duration: 300ms;
+}

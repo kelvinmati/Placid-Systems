@@ -8,9 +8,9 @@ export default {
         mobile: "90%",
       },
       colors: {
-        mainBlue: "#55b9ec",
+        mainBlue: "#4aa2d5",
         mainGrey: "#0f0f3f",
-        navyBlue: "#71828e",
+        // navyBlue: "#71828e",
         darkBlue: "#3a3a62",
       },
     },

@@ -12,10 +12,10 @@ const Footer = () => {
           <li>Contact</li>
         </ul>
         <div className="flex space-x-2">
-          <i class="bx bx-md bxl-facebook-circle"></i>
-          <i class="bx bx-md bxl-linkedin-square"></i>
-          <i class="bx bx-md bxl-twitter"></i>
-          <i class="bx bx-md bxl-instagram"></i>
+          <i className="bx bx-md bxl-facebook-circle"></i>
+          <i className="bx bx-md bxl-linkedin-square"></i>
+          <i className="bx bx-md bxl-twitter"></i>
+          <i className="bx bx-md bxl-instagram"></i>
         </div>
       </div>
     </div>

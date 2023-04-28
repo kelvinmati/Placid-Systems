@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import mockup from "../assets/mockup-screens-removebg-preview.png";
+// import mockup from "../assets/mockup-screens-removebg-preview.png";
 import web_page_mockup from "../assets/web-pages-mockup.png";
 // import web_page_mockup from "../assets/smartmockups_lgxtdqn6.jpg";
 import bg_img from "../assets/bg-img.jpg";
@@ -8,14 +8,14 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className=" bg-no-repeat  bg-cover bg-center bg-blend-multiply pt-6 pb-20"
+      className=" bg-no-repeat  bg-cover bg-center bg-blend-multiply md:pt-6 pt-0 pb-20"
       style={{
         backgroundImage: `url(${bg_img})`,
-        backgroundColor: " rgba(0, 0, 255,0.2)",
+        backgroundColor: " rgba(0, 0, 255,0.1)",
       }}
     >
       <Navbar />
-      <div className="w-mobile md:w-container mx-auto grid md:grid-cols-2 items-center gap-3">
+      <div className="w-mobile md:w-container mx-auto grid md:grid-cols-2 items-center gap-3 pt-8 md:pt-0">
         <div className="space-y-12">
           <div>
             <h2 className=" text-4xl font-bold">

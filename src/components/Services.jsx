@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <div id="services">
       <h2 className="text-2xl text-center pb-6">What we do</h2>
-      <div className="w-mobile md:w-container mx-auto grid md:grid-cols-2 gap-y-20 gap-x-5">
+      <div className="w-mobile md:w-container mx-auto grid md:grid-cols-2 md:gap-y-28 gap-y-5 md:gap-x-5">
         {/* 1st row */}
         <div>
           <div className="flex space-x-2 font-bold items-center text-2xl pb-3">
@@ -30,9 +30,9 @@ const Services = () => {
           />
         </div>
         {/* second row */}
-        <div>
+        <div className="hidden md:block">
           <img
-            src="https://img.freepik.com/free-vector/computer-technology-isometric-icon-server-room-digital-device-set-element-design-pc-laptop_39422-1026.jpg?size=626&ext=jpg"
+            src="https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?size=626&ext=jpg&ga=GA1.1.196805274.1682670785&semt=ais"
             alt=""
           />
         </div>
@@ -75,9 +75,9 @@ const Services = () => {
             business today with PSLs customized solutions.
           </p>
         </div>
-        <div>
+        <div className="hidden md:block">
           <img
-            src="https://img.freepik.com/free-vector/computer-technology-isometric-icon-server-room-digital-device-set-element-design-pc-laptop_39422-1026.jpg?size=626&ext=jpg"
+            src="https://img.freepik.com/premium-photo/3d-rendering-artificial-intelligence-hardware_163855-3.jpg?size=626&ext=jpg&ga=GA1.1.196805274.1682670785&semt=sph"
             alt=""
           />
         </div>
@@ -96,9 +96,9 @@ const Services = () => {
             <h2>CYBER SECURITY</h2>
           </div>
           <div className="space-y-2">
-            {cyberSecurityLists.map((cyberSecurityList) => {
+            {cyberSecurityLists.map((cyberSecurityList, index) => {
               return (
-                <div className="text-gray-700 flex space-x-2 ">
+                <div key={index} className="text-gray-700 flex space-x-2 ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"

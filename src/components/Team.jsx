@@ -48,7 +48,7 @@ const Team = () => {
             <div className="flex justify-center ">
               <img
                 className="h-[200px] w-[200px]  bg-darkBlue p-1 rounded-full"
-                src={chris}
+                src={james}
                 alt=""
               />
             </div>
@@ -68,7 +68,7 @@ const Team = () => {
             <div className="flex justify-center ">
               <img
                 className="h-[200px] w-[200px]  bg-darkBlue p-1 rounded-full"
-                src={james}
+                src={chris}
                 alt=""
               />
             </div>

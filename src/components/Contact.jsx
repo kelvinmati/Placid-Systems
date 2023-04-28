@@ -5,7 +5,7 @@ const Contact = () => {
     <div id="contact" className="p-2">
       <h2 className="text-center pb-3 text-2xl">Contact Us</h2>
       <div className=" w-mobile md:w-container mx-auto bg-gray-100 grid md:grid-cols-5  items-center rounded-md  gap-3">
-        <div className="col-span-2 p-4">
+        <div className="md:col-span-2 p-4">
           <form className="space-y-6">
             <div>
               <p>Name</p>
@@ -47,7 +47,7 @@ const Contact = () => {
             backgroundImage:
               "url(https://images.unsplash.com/photo-1615840287214-7ff58936c4cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29udGFjdCUyMHVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60)",
           }}
-          className=" flex md:rounded-tr-md md:rounded-br-md  flex-col  md:items-end space-y-6 p-4 col-span-3 bg-cover  bg-no-repeat  bg-center md:h-[500px]"
+          className=" flex md:rounded-tr-md md:rounded-br-md  flex-col  md:items-end space-y-6 p-4 md:col-span-3 bg-cover  bg-no-repeat  bg-center md:h-[500px]"
         >
           <div className="bg-white p-5 w-mobile md:w-1/2 mx-auto md:mx-0">
             <h2 className="flex space-x-1 font-bold">

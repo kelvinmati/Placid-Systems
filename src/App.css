@@ -16,3 +16,10 @@ html {
   transition: ease-in-out;
   transition-duration: 300ms;
 }
+.mobile_active {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  padding: 10px 0px;
+  transition: ease-in-out;
+  transition-duration: 300ms;
+}
